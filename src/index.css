@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /* overflow-y: scroll; */
+  overflow-y: scroll;
+}
+.dbank-label-img {
+  background-size: cover;
+  background-image: url('/images/c7bd01c79cbc073338ce72785bc6212215965eba.png');
+}
+
+.card {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 147, 101, 0.08),
+    rgba(255, 100, 210, 0.08) 99.99%,
+    rgba(255, 100, 212, 0.1)
+  );
+}
+
+.gift {
+  background-image: url('https://defindx.net/public-3.svg');
+  background-position: left bottom, left;
+  background-repeat: no-repeat;
+  background-size: initial;
+}
